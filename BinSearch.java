@@ -24,7 +24,7 @@ public class BinSearch
      pre:  input array is sorted in ascending order
      post: returns index of target, or returns -1 if target not found
   **/
-  public int binSearch ( Comparable[] a, Comparable target ) {
+  public static int binSearch ( Comparable[] a, Comparable target ) {
     //uncomment exactly 1 of the 2 stmts below:
 
     return binSearchIter( a, target, 0, a.length-1 );
@@ -32,7 +32,7 @@ public class BinSearch
   }
 
 
-  public int binSearchRec( Comparable[] a, Comparable target,
+  public static int binSearchRec( Comparable[] a, Comparable target,
                                   int lo, int hi )
   {
     int tPos = -1; //init return var to flag value -1
@@ -57,7 +57,7 @@ public class BinSearch
   }//end binSearchRec
 
 
-  public int binSearchIter( Comparable[] a, Comparable target,
+  public static int binSearchIter( Comparable[] a, Comparable target,
                                    int lo, int hi )
   {
     int tPos = -1; //init return var to flag value -1
@@ -85,7 +85,7 @@ public class BinSearch
 
 
   //tell whether an array is sorted in ascending order
-  private boolean isSorted( Comparable[] arr )
+  private static boolean isSorted( Comparable[] arr )
   {
     boolean retBoo = true; //init to true, assume array is sorted
 
@@ -100,7 +100,7 @@ public class BinSearch
 
 
   // utility/helper fxn to display contents of an array of Objects
-  private void printArray( Comparable[] arr ) {
+  private static void printArray( Comparable[] arr ) {
     String output = "[ ";
 
     for( Comparable c : arr )
