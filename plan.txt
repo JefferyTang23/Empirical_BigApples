@@ -10,20 +10,20 @@ QCC
 -
  *****************************************************/
 
-How to find Time:
+How to find the time it took for a search to be conducted:
  1. create an array
  2. populate the array
  3. set variable to record time before search using currentTimeMillis()
  4. use one of the search methods
  5. set variable to record time after search using currentTimeMillis()
  6. find the difference between the 2 variables
+ 
+To Compare the speed of both search methods:
+ 7. use the difference between the 2 variables for each search to compare the speed.
 
-Comparing speed of each search:
- 7. compare differences of the 2 types of searches
-
- Other cases:
- *big array
- *small array
- * large target
- * small target
- * target median
+ Different types of cases that we want to test for:
+ * bigger array
+ * smaller array
+ * larger target
+ * smaller target
+ * target at median
