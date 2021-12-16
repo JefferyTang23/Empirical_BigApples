@@ -10,5 +10,20 @@ QCC
 -
  *****************************************************/
 
- 1. General test will be to subtract currentTimeMillis() before and after a search of each type and compare.
- 2. 
+How to find Time:
+ 1. create an array
+ 2. populate the array
+ 3. set variable to record time before search using currentTimeMillis()
+ 4. use one of the search methods
+ 5. set variable to record time after search using currentTimeMillis()
+ 6. find the difference between the 2 variables
+
+Comparing speed of each search:
+ 7. compare differences of the 2 types of searches
+
+ Other cases:
+ *big array
+ *small array
+ * large target
+ * small target
+ * target median
