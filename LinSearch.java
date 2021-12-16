@@ -23,7 +23,7 @@ public class LinSearch
      post: returns index of first occurrence of target, or
      returns -1 if target not found
   **/
-  public int linSearch ( Comparable[] a, Comparable target )
+  public static int linSearch ( Comparable[] a, Comparable target )
   {
     int tPos = -1;
     int i = 0;
@@ -40,7 +40,7 @@ public class LinSearch
 
 
   // utility/helper fxn to display contents of an array of Objects
-  private void printArray( Object[] arr )
+  private static void printArray( Object[] arr )
   {
     String output = "[ ";
 
