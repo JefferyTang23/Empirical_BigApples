@@ -14,15 +14,13 @@ QCC
  public class SearchDriver {
   
   public static void main(String[] args) {
-   Comparable[] iArr3 = new Integer[1000000000];
+   Comparable[] iArr3 = new Integer[100000];
     for( int i = 0; i < iArr3.length; i++ ) {
       iArr3[i] = i * 2;
     }
    long a = System.currentTimeMillis();
    BinSearch.binSearch(iArr3,2);
-   long b = System.currentTimeMillis();
-   System.out.println(b); 
-   System.out.println(a);
+   System.out.println(a- System.currentTimeMillis());
    
    
    
