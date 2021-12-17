@@ -18,10 +18,10 @@ QCC
     for( int i = 0; i < iArr3.length; i++ ) {
       iArr3[i] = i * 2;
     }
-   long a = System.currentTimeMillis();
+   long a = System.nanoTime();
    int h = LinSearch.linSearch(iArr3,2);
    System.out.println(h);
-   System.out.println(a- System.currentTimeMillis());
+   System.out.println(a- System.nanoTime());
    
    
    
