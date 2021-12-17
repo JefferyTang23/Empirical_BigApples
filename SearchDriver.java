@@ -14,19 +14,14 @@ QCC
  public class SearchDriver {
   
   public static void main(String[] args) {
+   Comparable[] iArr3 = new Integer[10000];
+    for( int i = 0; i < iArr3.length; i++ ) {
+      iArr3[i] = i * 2;
+    }
+   BinSearch.printArray( iArr3 );
+   System.out.println( "iArr3 sorted? -- " + BinSearch.isSorted(iArr3) );
    long a = System.currentTimeMillis();
-   System.out.println("5");
-   System.out.println("5");
-   System.out.println("5");
-   System.out.println("5");
-   System.out.println("5");
-   System.out.println("5");
-   System.out.println("5");
-   System.out.println("5");
-   System.out.println("5");
-   System.out.println("5");
-   System.out.println("5");
-   System.out.println("5");
+   BinSearch.binSearch(iArr3,2);
    long b = System.currentTimeMillis();
    System.out.println(b-a); 
    
