@@ -15,9 +15,9 @@ QCC
   
   public static void main(String[] args) {
    long a = System.currentTimeMillis();
-   print("5");
+   System.out.println("5");
    long b = System.currentTimeMillis();
-   print(b-a); 
+   System.out.println(b-a); 
    
    
    
