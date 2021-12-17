@@ -14,9 +14,9 @@ QCC
  public class SearchDriver {
   
   public static void main(String[] args) {
-   long a = currentTimeMillis();
+   long a = System.currentTimeMillis();
    print("5");
-   long b = currentTimeMillis();
+   long b = System.currentTimeMillis();
    print(b-a); 
    
    
