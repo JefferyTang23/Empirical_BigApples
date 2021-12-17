@@ -19,7 +19,7 @@ QCC
       iArr3[i] = i * 2;
     }
    long a = System.currentTimeMillis();
-   BinSearch.binSearch(iArr3,2);
+   LinSearch.linSearch(iArr3,2);
    System.out.println("HELLO");
    System.out.println(a- System.currentTimeMillis());
    
