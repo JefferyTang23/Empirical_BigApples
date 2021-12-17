@@ -18,8 +18,6 @@ QCC
     for( int i = 0; i < iArr3.length; i++ ) {
       iArr3[i] = i * 2;
     }
-   BinSearch.printArray( iArr3 );
-   System.out.println( "iArr3 sorted? -- " + BinSearch.isSorted(iArr3) );
    long a = System.currentTimeMillis();
    BinSearch.binSearch(iArr3,2);
    long b = System.currentTimeMillis();
