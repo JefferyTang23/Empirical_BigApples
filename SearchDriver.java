@@ -19,8 +19,8 @@ QCC
       iArr3[i] = i * 2;
     }
    long a = System.currentTimeMillis();
-   LinSearch.linSearch(iArr3,2);
-   System.out.println("HELLO");
+   h = LinSearch.linSearch(iArr3,2);
+   System.out.println(h);
    System.out.println(a- System.currentTimeMillis());
    
    
