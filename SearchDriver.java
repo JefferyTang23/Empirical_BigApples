@@ -22,19 +22,22 @@ QCC
   public static String printArray(OrderedArrayList a) {
     return a.toString();
   }
-  public static long timeCalcB(OrderedArrayList a, int target) {
+  /*public static long timeCalcB(OrderedArrayList a, int target) {
     long a = System.currentTimeMillis();
-    BinSearch(a, )
-  }
+    BinSearch(, )
+  }*/
   public static void main(String[] args) {
-   Comparable[] iArr3 = new Integer[100000];
+    OrderedArrayList a = new OrderedArrayList();
+    a.addLinear(5);
+    System.out.println(getList());
+   /*Comparable[] iArr3 = new Integer[100000];
     for( int i = 0; i < iArr3.length; i++ ) {
       iArr3[i] = i * 2;
     }
    long a = System.nanoTime();
    int h = LinSearch.linSearch(iArr3,2);
    System.out.println(h);
-   System.out.println(a- System.nanoTime());
+   System.out.println(a- System.nanoTime());*/
 
 
 
