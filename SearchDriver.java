@@ -14,7 +14,7 @@ QCC
  public class SearchDriver {
   
   public static void main(String[] args) {
-   Comparable[] iArr3 = new Integer[10000];
+   Comparable[] iArr3 = new Integer[1000000000];
     for( int i = 0; i < iArr3.length; i++ ) {
       iArr3[i] = i * 2;
     }
