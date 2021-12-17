@@ -20,9 +20,9 @@ QCC
     }
    BinSearch.printArray( iArr3 );
    System.out.println( "iArr3 sorted? -- " + BinSearch.isSorted(iArr3) );
-   long a = currentTimeMillis();
+   long a = System.currentTimeMillis();
    BinSearch.binSearch(iArr3,2);
-   long b = currentTimeMillis();
+   long b = System.currentTimeMillis();
    System.out.println(b); 
    System.out.println(a);
    
