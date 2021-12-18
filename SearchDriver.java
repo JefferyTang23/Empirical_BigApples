@@ -6,9 +6,9 @@ L03 - Binary vs Linear
 time spent:  0.5 hours
 
 DISCO
--
+- currentTimeMillis() gives the current time in miliseconds 
 QCC
--
+- Are there other time stamp methods that give time in other units of time?
  *****************************************************/
 
 public class SearchDriver{
