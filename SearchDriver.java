@@ -16,7 +16,7 @@ public class SearchDriver{
       long start = System.currentTimeMillis();
       BinSearch.binSearch(intArray, intArray[index]); // Binary search on element of specified index of the array list
       long end = System.currentTimeMillis();
-      timePassed = end - start;
+      long timePassed = end - start;
       return timePassed; // returns total time for search
     }
 
@@ -24,7 +24,7 @@ public class SearchDriver{
       long start = System.currentTimeMillis();
       LinSearch.linSearch(intArray, intArray[index]); // Binary search on element of specified index of the array list
       long end = System.currentTimeMillis();
-      timePassed = end - start;
+      long timePassed = end - start;
       return timePassed; // returns total time for search
     }
 
