@@ -1,5 +1,7 @@
-# Empirical_BigApples - Weichen Liu, Jeffery Tang, Lior
+#emp_BigApples
 
-# Results
+* Big Apples - Weichen Liu, Jeffery Tang, Lior
 
-# Conclusions
+* Results
+
+* Conclusions
