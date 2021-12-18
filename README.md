@@ -1,7 +1,7 @@
 # emp_BigApples
 
-*** Big Apples - Weichen Liu, Jeffery Tang, Lior
+## Big Apples - Weichen Liu, Jeffery Tang, Lior
 
-*** Results
+## Results
 
-*** Conclusions
+## Conclusions
