@@ -12,7 +12,7 @@ QCC
  *****************************************************/
 
 public class SearchDriver{
-    public static long recordTime_B(Comparable[] intArray, int index){
+    public static long indexTestB(Comparable[] intArray, int index){
       long start = System.currentTimeMillis();
       BinSearch.binSearch(intArray, intArray[index]); // Binary search on element of specified index of the array list
       long end = System.currentTimeMillis();
@@ -20,7 +20,7 @@ public class SearchDriver{
       return timePassed; // returns total time for search
     }
 
-    public static long recordTime_I(Comparable[] intArray, int index){
+    public static long indexTestI(Comparable[] intArray, int index){
       long start = System.currentTimeMillis();
       LinSearch.linSearch(intArray, intArray[index]); // Binary search on element of specified index of the array list
       long end = System.currentTimeMillis();
@@ -34,10 +34,10 @@ public class SearchDriver{
         test[i] = i*2;
       }
 
-      System.out.println("total time(ms) for linear search: \t" + recordTime_I(test, 5));
-      System.out.println("total time(ms) for binary search: \t" + recordTime_B(test, 5));
-      System.out.println("total time(ms) for linear search: \t" + recordTime_I(test, 100000));
-      System.out.println("total time(ms) for binary search: \t" + recordTime_B(test, 100000));
+      System.out.println("total time(ms) for linear search: \t" + indexTestI(test, 5));
+      System.out.println("total time(ms) for binary search: \t" + indexTestB(test, 5));
+      System.out.println("total time(ms) for linear search: \t" + indexTestI(test, 100000));
+      System.out.println("total time(ms) for binary search: \t" + indexTestB(test, 100000));
     }
 
 }
