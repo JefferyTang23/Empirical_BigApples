@@ -36,6 +36,8 @@ public class SearchDriver{
 
       System.out.println("total time(ms) for linear search: \t" + recordTime_I(test, 5));
       System.out.println("total time(ms) for binary search: \t" + recordTime_B(test, 5));
+      System.out.println("total time(ms) for linear search: \t" + recordTime_I(test, 100000));
+      System.out.println("total time(ms) for binary search: \t" + recordTime_B(test, 100000));
     }
 
 }
