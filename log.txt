@@ -4,15 +4,23 @@ L03 - Binary vs Linear
 2021-12-16
 
 
-12/16/2021 --- 12 pm 
+12/16/2021 --- 12 pm EST
 
-- Worked on a plan on gathering empirical data for binary search and linear search
+- Worked on a plan on gathering empirical data for binary search and linear search.
+- We discussed where we would place our timestamps to get the most accurate data.
+- We also talked about using different array sizes
 
-12/16/2021 --- 7 pm 
+12/16/2021 --- 7 pm EST
 
 - Worked more on the plan.
+- We discussed how different computers ran at different speeds.
 
-12/17/2021 --- 12 pm 
+12/17/2021 --- 12 pm EST
 
 - Looked over plan reviews and plan to incorporate randomness in our testing.
+
+12/18/2021 --- 6 pm EST
+
+- We created a test that tested if linear search or binary search is faster when the target is an element of lower index.
+- 
 
