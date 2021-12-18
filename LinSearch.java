@@ -1,13 +1,14 @@
 /*****************************************************
-Big Apples (Weichen Liu + Blueface, Jeffery Tang + Mathias, Lior + Toothless)
+Big Apples (Weichen Liu + Blueface, Jeffery Tang + Mathias, Lior Polischouk + Toothless)
 APCS pd6
 L03 - Binary vs Linear
 2021-12-16
 time spent:  0.5 hours
+
 DISCO
--
+- currentTimeMillis() gives the current time in miliseconds 
 QCC
--
+- Are there other time stamp methods that give time in other units of time?
  *****************************************************/
 
 /**
