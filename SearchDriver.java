@@ -15,16 +15,16 @@ public class SearchDriver{
     public static long recordTime_B(Comparable[] intArray, int index){
       long start = System.currentTimeMillis();
       BinSearch.binSearch(intArray, intArray[index]); // Binary search on element of specified index of the array list
-      long end = System.currentTimeMillis() 
-      timePassed = end - start
+      long end = System.currentTimeMillis();
+      timePassed = end - start;
       return timePassed; // returns total time for search
     }
 
     public static long recordTime_I(Comparable[] intArray, int index){
       long start = System.currentTimeMillis();
       LinSearch.linSearch(intArray, intArray[index]); // Binary search on element of specified index of the array list
-      long end = System.currentTimeMillis() 
-      timePassed = end - start
+      long end = System.currentTimeMillis();
+      timePassed = end - start;
       return timePassed; // returns total time for search
     }
 
