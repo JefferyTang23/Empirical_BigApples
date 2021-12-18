@@ -11,36 +11,31 @@ QCC
 -
  *****************************************************/
 
- public class SearchDriver {
-  public static void populate(OrderedArrayList a, int size) {
-    int random = 0;
-    for (int i = 0 ; i < size ; i++) {
-      random = (int) (Math.random() * 10);
-      a.add(random);
+public class SearchDriver{
+    public static long recordTime_B(Comparable[] intArray, int index){
+      long start = System.currentTimeMillis();
+      BinSearch.binSearch(intArray, intArray[index]); // Binary search on element of specified index of the array list
+      long end = System.currentTimeMillis() 
+      timePassed = end - start
+      return timePassed; // returns total time for search
     }
-  }
-  public static String printArray(OrderedArrayList a) {
-    return a.toString();
-  }
-  /*public static long timeCalcB(OrderedArrayList a, int target) {
-    long a = System.currentTimeMillis();
-    BinSearch(, )
-  }*/
-  public static void main(String[] args) {
-    OrderedArrayList a = new OrderedArrayList();
-    a.addLinear(5);
-    System.out.println(getList());
-   /*Comparable[] iArr3 = new Integer[100000];
-    for( int i = 0; i < iArr3.length; i++ ) {
-      iArr3[i] = i * 2;
+
+    public static long recordTime_I(Comparable[] intArray, int index){
+      long start = System.currentTimeMillis();
+      LinSearch.linSearch(intArray, intArray[index]); // Binary search on element of specified index of the array list
+      long end = System.currentTimeMillis() 
+      timePassed = end - start
+      return timePassed; // returns total time for search
     }
-   long a = System.nanoTime();
-   int h = LinSearch.linSearch(iArr3,2);
-   System.out.println(h);
-   System.out.println(a- System.nanoTime());*/
 
+    public static void main(String[] args){
+      Comparable[] test = new Integer[1000000];
+      for (int i = 0; i < test.length; i++){ // populates test
+        test[i] = i*2;
+      }
 
+      System.out.println("total time(ms) for linear search: \t" + recordTime_I(test, 5));
+      System.out.println("total time(ms) for binary search: \t" + recordTime_B(test, 5));
+    }
 
-  } // end main
-
- }
+}
