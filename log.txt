@@ -22,5 +22,7 @@ L03 - Binary vs Linear
 12/18/2021 --- 6 pm EST
 
 - We created a test that tested if linear search or binary search is faster when the target is an element of lower index.
-- 
+- We took the average speed of linear search and binary search finding a lower index in an array of size 1000000. To our surprise, binary search was faster.
+- We took the average speed of linear search and binary search finding a higher index in an array of size 1000000. Not to our surprise, binary search was faster.
+
 
