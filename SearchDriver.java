@@ -10,7 +10,8 @@ DISCO
 - We had to increase repetition to increase the amount of time that the code took to run. 
 QCC
 - Are there other time stamp methods that give time in other units of time?
-- What run time should we be getting?
+- What run times should we be getting?
+- What are some potential errors from currentTimeMillis()?
  *****************************************************/
 
 public class SearchDriver{
