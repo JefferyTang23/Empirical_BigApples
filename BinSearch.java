@@ -6,9 +6,12 @@ L03 - Binary vs Linear
 time spent:  0.5 hours
 
 DISCO
-- currentTimeMillis() gives the current time in miliseconds 
+- currentTimeMillis() gives the current time in miliseconds
+- We had to increase repetition to increase the amount of time that the code took to run. 
 QCC
 - Are there other time stamp methods that give time in other units of time?
+- What run times should we be getting?
+- What are some potential errors from currentTimeMillis()?
  *****************************************************/
 
 /**
