@@ -28,4 +28,5 @@ L03 - Binary vs Linear
 12/20/21 --- 12 pm EST
 
 - Did tests with looking through every index for both linear and binary search of size 10000000 and size 500000, and index of 10000 and 20000. Binary search was significantly faster.
+- Also did tests with finding middle index. Binary search was still faster.
 
