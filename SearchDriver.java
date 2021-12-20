@@ -57,7 +57,7 @@ public class SearchDriver{
       Comparable[] test3 = new Integer[10000];
       Comparable[] test4 = new Integer[20000];
       Comparable[] test5 = new Integer[100000];
-      Comparable[] test6 = new Integer[500000];
+      Comparable[] test6 = new Integer[200000];
       // Populating arrays
       for (int i = 0; i < test.length; i++){ 
         test[i] = i*1;
@@ -99,7 +99,7 @@ public class SearchDriver{
       System.out.println("testing for speed of linear and binary search on array for 100000 index:");
       System.out.println("total time(ms) for linear search: \t" + indexTestIAll(test5));
       System.out.println("total time(ms) for binary search: \t" + indexTestBAll(test5));
-      System.out.println("testing for speed of linear and binary search on array for 500000 index:");
+      System.out.println("testing for speed of linear and binary search on array for 200000 index:");
       System.out.println("total time(ms) for linear search: \t" + indexTestIAll(test6));
       System.out.println("total time(ms) for binary search: \t" + indexTestBAll(test6));
     }
