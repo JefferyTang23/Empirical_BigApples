@@ -57,6 +57,7 @@ public class SearchDriver{
       Comparable[] test3 = new Integer[10000];
       Comparable[] test4 = new Integer[20000];
       Comparable[] test5 = new Integer[100000];
+      Comparable[] test6 = new Integer[1000000];
       // Populating arrays
       for (int i = 0; i < test.length; i++){ 
         test[i] = i*1;
@@ -73,17 +74,20 @@ public class SearchDriver{
       for (int i = 0; i < test5.length; i++){ 
         test5[i] = i*1;
       }
+      for (int i = 0; i < test6.length; i++){ 
+        test5[i] = i*1;
+      }
       // Testing on the Arrays
-      System.out.println("testing for speed of linear and binary search on big array for small index:");
+      System.out.println("testing for speed of linear and binary search on bigger array(length 10000000) for small index:");
       System.out.println("total time(ms) for linear search: \t" + indexTestI(test, 5000));
       System.out.println("total time(ms) for binary search: \t" + indexTestB(test, 5000));
-      System.out.println("testing for speed of linear and binary search on big array for big index:");
+      System.out.println("testing for speed of linear and binary search on bigger array(length 10000000) for big index:");
       System.out.println("total time(ms) for linear search: \t" + indexTestI(test, 9999999));
       System.out.println("total time(ms) for binary search: \t" + indexTestB(test, 9999999));
-      System.out.println("testing for speed of linear and binary search on small array for small index:");
+      System.out.println("testing for speed of linear and binary search on smaller array(length 5000000) for small index:");
       System.out.println("total time(ms) for linear search: \t" + indexTestI(test2, 5000));
       System.out.println("total time(ms) for binary search: \t" + indexTestB(test2, 5000));
-      System.out.println("testing for speed of linear and binary search on small array for big index:");
+      System.out.println("testing for speed of linear and binary search on smaller array(length 5000000) for big index:");
       System.out.println("total time(ms) for linear search: \t" + indexTestI(test2, 4999999));
       System.out.println("total time(ms) for binary search: \t" + indexTestB(test2, 4999999));
       System.out.println("testing for speed of linear and binary search on array for 10000 index:");
@@ -95,6 +99,9 @@ public class SearchDriver{
       System.out.println("testing for speed of linear and binary search on array for 100000 index:");
       System.out.println("total time(ms) for linear search: \t" + indexTestIAll(test5));
       System.out.println("total time(ms) for binary search: \t" + indexTestBAll(test5));
+      System.out.println("testing for speed of linear and binary search on array for 1000000 index:");
+      System.out.println("total time(ms) for linear search: \t" + indexTestIAll(test6));
+      System.out.println("total time(ms) for binary search: \t" + indexTestBAll(test6));
     }
 
 }
