@@ -75,7 +75,7 @@ public class SearchDriver{
         test5[i] = i*1;
       }
       for (int i = 0; i < test6.length; i++){ 
-        test5[i] = i*1;
+        test6[i] = i*1;
       }
       // Testing on the Arrays
       System.out.println("testing for speed of linear and binary search on bigger array(length 10000000) for small index:");
