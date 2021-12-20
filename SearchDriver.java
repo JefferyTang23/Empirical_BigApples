@@ -64,13 +64,13 @@ public class SearchDriver{
       for (int i = 0; i < test2.length; i++){ 
         test2[i] = i*1;
       }
-      for (int i = 0; i < test.length; i++){ 
+      for (int i = 0; i < test3.length; i++){ 
         test3[i] = i*1;
       }
-      for (int i = 0; i < test2.length; i++){ 
+      for (int i = 0; i < test4.length; i++){ 
         test4[i] = i*1;
       }
-      for (int i = 0; i < test2.length; i++){ 
+      for (int i = 0; i < test5.length; i++){ 
         test5[i] = i*1;
       }
       // Testing on the Arrays
