@@ -9,7 +9,7 @@ How to find the time it took for a search to be conducted:
  1. create an array
  2. populate the array
  3. set variable to record time before search using currentTimeMillis()
- 4. use one of the search methods
+ 4. use one of the search methods multiple times
  5. set variable to record time after search using currentTimeMillis()
  6. find the difference between the 2 variables
  
