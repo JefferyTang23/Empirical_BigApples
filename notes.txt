@@ -11,4 +11,8 @@ QCC
 - Are there other time stamp methods that give time in other units of time?
 - What run times should we be getting?
 - What are some potential errors from currentTimeMillis()?
+GALLERY TOUR
+- We could have used plots/graphs/tables to make our data easier to read.
+- We could have also used best/worst case scenarios.
+- Binary search is always faster after a certain threshold.
 
