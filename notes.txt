@@ -15,4 +15,5 @@ GALLERY TOUR
 - We could have used plots/graphs/tables to make our data easier to read.
 - We could have also used best/worst case scenarios.
 - Binary search is always faster after a certain threshold.
+- Could put some throwaway code in the beginning to account for startup lag.
 
