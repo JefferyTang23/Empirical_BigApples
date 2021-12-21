@@ -36,3 +36,7 @@ L03 - Binary vs Linear
 - Removed some needless testing.
 - Ramped up the time it took for binary search and linear search to run. 
 - Further revised README.md
+
+12/21/21 --- 12 pm EST
+
+- Updated notes to account for findings from gallery tour.
