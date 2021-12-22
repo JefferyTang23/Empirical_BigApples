@@ -33,7 +33,7 @@ public class SearchDriver{
     
     public static long outBoundB(Comparable[] intArray){
       long start = System.currentTimeMillis();
-      for (int i = 0; i < 10000; i ++) {
+      for (int i = 0; i < 1000000; i ++) {
           BinSearch.binSearch(intArray, 1); // 1 since it will never be on the array list since we deal with even nums
       }
       long end = System.currentTimeMillis();
@@ -43,7 +43,7 @@ public class SearchDriver{
     
     public static long outBoundI(Comparable[] intArray){
       long start = System.currentTimeMillis();
-      for (int i = 0; i < 10000; i ++) {
+      for (int i = 0; i < 1000000; i ++) {
           LinSearch.linSearch(intArray, 1); // 1 since it will never be on the array list since we deal with even nums
       }
       long end = System.currentTimeMillis();
