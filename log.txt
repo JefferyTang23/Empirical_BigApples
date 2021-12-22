@@ -44,3 +44,4 @@ L03 - Binary vs Linear
 12/21/21 --- 8 pm EST
 
 - Updated README.md to become more readable and clear. 
+- Added testing for worst case for linear and binary search.
