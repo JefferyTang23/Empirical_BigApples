@@ -123,7 +123,7 @@ public class SearchDriver{
       System.out.println("testing for speed of linear and binary search on array for 200000 index:");
       System.out.println("total time(ms) for linear search: \t" + indexTestIAll(test6));
       System.out.println("total time(ms) for binary search: \t" + indexTestBAll(test6));
-      System.out.println("testing for worse case scenario of binary search:");
+      System.out.println("testing for worse case scenario of linear and binary search:");
       System.out.println("total time(ms) for linear search: \t" + outBoundI(test3));
       System.out.println("total time(ms) for binary search: \t" + outBoundB(test3));  
     }
