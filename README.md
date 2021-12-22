@@ -13,6 +13,9 @@
 * testing for speed of linear and binary search on array of 200000 length
 
 ## Results
+* In almost every scenario(after a certain threshold), binary search was faster than linear search.
+* As the array we are testing on grew larger and larger, linear search took exponentially as long as binary search.
+
 ```
 testing for speed of linear and binary search on bigger array(length 10000000) for small index:
 total times(ms) for linear search:       1 / 2 / 1                 AVG: 1.33
