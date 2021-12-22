@@ -40,3 +40,7 @@ L03 - Binary vs Linear
 12/21/21 --- 12 pm EST
 
 - Updated notes to account for findings from gallery tour.
+
+12/21/21 --- 8 pm EST
+
+- Updated README.md to become more readable and clear. 
