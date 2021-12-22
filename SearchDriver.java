@@ -81,22 +81,22 @@ public class SearchDriver{
       Comparable[] test6 = new Integer[200000];
       // Populating arrays
       for (int i = 0; i < test.length; i++){ 
-        test[i] = i*1;
+        test[i] = i*2;
       }
       for (int i = 0; i < test2.length; i++){ 
-        test2[i] = i*1;
+        test2[i] = i*2;
       }
       for (int i = 0; i < test3.length; i++){ 
-        test3[i] = i*1;
+        test3[i] = i*2;
       }
       for (int i = 0; i < test4.length; i++){ 
-        test4[i] = i*1;
+        test4[i] = i*2;
       }
       for (int i = 0; i < test5.length; i++){ 
-        test5[i] = i*1;
+        test5[i] = i*2;
       }
       for (int i = 0; i < test6.length; i++){ 
-        test6[i] = i*1;
+        test6[i] = i*2;
       }
       // Testing on the Arrays
       System.out.println("testing for speed of linear and binary search on bigger array(length 10000000) for small index:");
