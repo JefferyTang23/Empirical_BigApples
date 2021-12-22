@@ -8,10 +8,10 @@
 * testing for speed of linear and binary search on bigger array(length 10000000) for big index
 * testing for speed of linear and binary search on smaller array(length 5000000) for small index
 * testing for speed of linear and binary search on smaller array(length 5000000) for big index
-* testing for speed of linear and binary search on array of 10000 length
-* testing for speed of linear and binary search on array of 20000 length
-* testing for speed of linear and binary search on array of 100000 length
-* testing for speed of linear and binary search on array of 200000 length
+* testing for speed of linear and binary search for every element on array of 10000 length
+* testing for speed of linear and binary search for every element on array of 20000 length
+* testing for speed of linear and binary search for every element on array of 100000 length
+* testing for speed of linear and binary search for every element on array of 200000 length
 
 ## Results
 * In almost every scenario(after a certain threshold), binary search was faster than linear search.
