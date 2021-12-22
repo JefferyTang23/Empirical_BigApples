@@ -124,8 +124,8 @@ public class SearchDriver{
       System.out.println("total time(ms) for linear search: \t" + indexTestIAll(test6));
       System.out.println("total time(ms) for binary search: \t" + indexTestBAll(test6));
       System.out.println("testing for worse case scenario of binary search:");
-      System.out.println("total time(ms) for linear search: \t" + outBoundI(test5));
-      System.out.println("total time(ms) for binary search: \t" + outBoundB(test5));  
+      System.out.println("total time(ms) for linear search: \t" + outBoundI(test3));
+      System.out.println("total time(ms) for binary search: \t" + outBoundB(test3));  
     }
 
 }
