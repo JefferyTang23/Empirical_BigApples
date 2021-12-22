@@ -3,6 +3,7 @@
 ## Big Apples - Weichen Liu, Jeffery Tang, Lior Polischouk
 
 ## Tests Performed
+### We tested in the main method of our SearchDriver.java file for small targets, big targets, smaller arrays, bigger arrays, more repetition, and less repetition:
 * testing for speed of linear and binary search on bigger array(length 10000000) for small index
 * testing for speed of linear and binary search on bigger array(length 10000000) for big index
 * testing for speed of linear and binary search on smaller array(length 5000000) for small index
