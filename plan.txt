@@ -9,16 +9,20 @@ How to find the time it took for a search to be conducted:
  1. create an array
  2. populate the array
  3. set variable to record time before search using currentTimeMillis()
- 4. use one of the search methods multiple times
+ 4. use one of the search methods 
  5. set variable to record time after search using currentTimeMillis()
  6. find the difference between the 2 variables
  
+To buff up data:
+ 7. use a for loop to run the search a ton of times. 
+ 
 To Compare the speed of both search methods:
- 7. use the difference between the 2 variables for each search to compare the speed.
+ 8. use the difference between the 2 variables for each search to compare the speed.
 
  Different types of cases that we want to test for:
  * bigger array
  * smaller array
  * larger target
  * smaller target
- * target at median
+ * worst case (target not being in the array)
+ 
