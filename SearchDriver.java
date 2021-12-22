@@ -33,7 +33,9 @@ public class SearchDriver{
     
     public static long outBoundB(Comparable[] intArray){
       long start = System.currentTimeMillis();
-      BinSearch.binSearch(intArray, 1); // 1 since it will never be on the array list since we deal with even nums
+      for (int i = 0; i < 10000; i ++) {
+          BinSearch.binSearch(intArray, 1); // 1 since it will never be on the array list since we deal with even nums
+      }
       long end = System.currentTimeMillis();
       long timePassed = end - start;
       return timePassed; // returns total time for search
@@ -41,7 +43,9 @@ public class SearchDriver{
     
     public static long outBoundI(Comparable[] intArray){
       long start = System.currentTimeMillis();
-      LinSearch.linSearch(intArray, 1); // 1 since it will never be on the array list since we deal with even nums
+      for (int i = 0; i < 10000; i ++) {
+          LinSearch.linSearch(intArray, 1); // 1 since it will never be on the array list since we deal with even nums
+      }
       long end = System.currentTimeMillis();
       long timePassed = end - start;
       return timePassed; // returns total time for search
@@ -120,8 +124,8 @@ public class SearchDriver{
       System.out.println("total time(ms) for linear search: \t" + indexTestIAll(test6));
       System.out.println("total time(ms) for binary search: \t" + indexTestBAll(test6));
       System.out.println("testing for worse case scenario of binary search:");
-      System.out.println("total time(ms) for linear search: \t" + outBoundI(test6));
-      System.out.println("total time(ms) for binary search: \t" + outBoundB(test6));  
+      System.out.println("total time(ms) for linear search: \t" + outBoundI(test5));
+      System.out.println("total time(ms) for binary search: \t" + outBoundB(test5));  
     }
 
 }
