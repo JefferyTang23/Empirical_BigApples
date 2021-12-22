@@ -45,3 +45,4 @@ L03 - Binary vs Linear
 
 - Updated README.md to become more readable and clear. 
 - Added testing for worst case for linear and binary search.
+- Plan updated to include our newest testing. 
