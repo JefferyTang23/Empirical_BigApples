@@ -7,13 +7,16 @@ time spent:  0.5 hours
 DISCO
 - currentTimeMillis() gives the current time in miliseconds
 - We had to increase repetition to increase the amount of time that the code took to run. 
+
 QCC
 - Are there other time stamp methods that give time in other units of time?
 - What run times should we be getting?
 - What are some potential errors from currentTimeMillis()?
+
 GALLERY TOUR
 - We could have used plots/graphs/tables to make our data easier to read.
 - We could have also used best/worst case scenarios.
-- Binary search is always faster after a certain threshold.
+- Worst case for either searches could be the target not being in the array. 
+- Binary search is always faster after a certain threshold. That threshold is when the array reaches about 100 length. 
 - Could put some throwaway code in the beginning to account for startup lag.
 
